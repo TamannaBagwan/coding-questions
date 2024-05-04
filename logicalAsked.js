@@ -63,15 +63,15 @@
  // 12 apr 2024 =>Ellicium solutions
 
 //  let str = 'abcd' ;  //output ABbCccDddd
- function convertStr(str){
-  let result = '' ;
-  for(let i=0;i<str.length;i++){
-    result += str[i].toUpperCase() ;
-    for(let j=0;j<i;j++){
-      result += str[i].toLowerCase() ;
-    }
-  }
-  return result
- }
+//  function convertStr(str){
+//   let result = '' ;
+//   for(let i=0;i<str.length;i++){
+//     result += str[i].toUpperCase() ;
+//     for(let j=0;j<i;j++){
+//       result += str[i].toLowerCase() ;
+//     }
+//   }
+//   return result
+//  }
   
-console.log(convertStr("abcd"));
+// console.log(convertStr("abcd"));

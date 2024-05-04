@@ -129,6 +129,7 @@
 //   {}
 // console.log(i);           //ReferenceError: i is not defined
 
+
 // function func(){
 //   let a ='hello' ;
 //   var b ;
@@ -136,6 +137,7 @@
 // }
 // func() ;                            //hello
 // console.log(b);                 // ReferenceError: b is not defined
+
 
 // //6. generate substrings
 // function generateSubstrings(str) {
@@ -157,6 +159,7 @@
 // numbers.push(...result);
 // console.log(numbers);     //[ 33, 44, 55, 11, 22 ]
 
+
 // 8.sort an array without using inbuilt methods
 // function sort(arr){
 //     for(let i=0;i<arr.length;i++){
@@ -171,6 +174,7 @@
 //     return arr
 // }
 // console.log(sort([40,23,2,89,24]));
+
 
 //9 what will be the output
 // const obj = { value: "hello" };
@@ -748,10 +752,10 @@ let numbers = [1, 2, 3, 4, 5];
 //   console.log(user);
 
 
-const num = [1,2,3,4,5] ;
-let result =num.filter((n)=>{
-    if(n<3){
-        console.log(n);
-    }
-}) ;
+// const num = [1,2,3,4,5] ;
+// let result =num.filter((n)=>{
+//     if(n<3){
+//         console.log(n);
+//     }
+// }) ;
 
